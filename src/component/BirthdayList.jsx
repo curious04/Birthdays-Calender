@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './BirthdayList.css';
+import '../Styles/BirthdayList.css';
 import './FavoriteBirthdays';
 import FavoriteBirthdays from './FavoriteBirthdays';
 

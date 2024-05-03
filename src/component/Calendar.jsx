@@ -4,7 +4,7 @@ import { StaticDatePicker } from '@mui/x-date-pickers/StaticDatePicker';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import BirthdayList from "./BirthdayList";
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
-import './Calender.css';
+import '../Styles/Calender.css';
 
 const CalendarComponent = () => {
   const [selectedDate, setSelectedDate] = useState(null);
