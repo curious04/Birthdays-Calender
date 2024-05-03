@@ -1,0 +1,21 @@
+
+.calendar-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .calendar-wrapper {
+    flex: 1; /* Calendar takes up remaining space */
+    margin-right: 20px; /* Add space between calendar and birthday list */
+  }
+  
+
+.birthday-list-wrapper {
+    width: 350px; /* Increase width of the birthday list */
+    margin-right: 0; /* Remove default margin-right */
+    margin-left: auto; /* Move birthday list to the right margin */
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 300px; /* Set maximum height for the scrollable container */
+  }
+  
+  
