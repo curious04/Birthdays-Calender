@@ -5,9 +5,8 @@ import FavoriteBirthdays from './component/FavoriteBirthdays';
 function App() {
   return (
     <div className='App'>
-      <h1 className='header-text'>Calendar </h1>
+      <h1 className='header-text'> Birthday Calendar </h1>
       <Calendar />
-      <FavoriteBirthdays />
     </div>
   );
 }

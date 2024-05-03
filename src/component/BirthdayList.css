@@ -1,18 +1,36 @@
-/* src/components/BirthdayList.css */
-
 .birthday-list-container {
   margin-top: 20px;
 }
 
-.birthday-grid {
+.birthdayList {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the minimum width of each grid item */
-  gap: 20px; /* Adjust the gap between grid items */
-  max-height: 400px; /* Set a maximum height for the grid */
-  overflow-y: auto; /* Enable vertical scrolling */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+  gap: 20px; 
+  max-height: 400px; 
+  overflow-y: hidden; 
 }
 
 .birthday-item {
   border: 1px solid #ccc;
   padding: 10px;
 }
+
+.birthday-list{
+  max-height: 120px; 
+    overflow-y: auto;
+    list-style: none; 
+    padding-left: 0; 
+    
+    border-bottom: 1px solid #ccc; 
+  padding-bottom: 8px; 
+  margin-bottom: 16px; 
+}
+
+.birthday-list ul {
+  padding: 15px 0;
+}
+.birthdayList{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+

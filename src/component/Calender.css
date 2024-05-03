@@ -5,17 +5,34 @@
   }
   
   .calendar-wrapper {
-    flex: 1; /* Calendar takes up remaining space */
-    margin-right: 20px; /* Add space between calendar and birthday list */
+    flex: 1; 
+    margin-right: 20px; 
   }
   
 
 .birthday-list-wrapper {
-    width: 350px; /* Increase width of the birthday list */
-    margin-right: 0; /* Remove default margin-right */
-    margin-left: auto; /* Move birthday list to the right margin */
-    overflow-y: auto; /* Enable vertical scrolling */
-    max-height: 300px; /* Set maximum height for the scrollable container */
+    width: 350px; 
+    margin-right: 0; 
+    margin-left: auto; 
+    overflow-y: auto; 
+    max-height: 300px; 
   }
+  
+  .favorite-birthdays-list {
+    max-height: 200px; 
+    overflow-y: auto;
+    list-style: none; 
+    padding-left: 0; 
+    
+    border-bottom: 1px solid #ccc; 
+  padding-bottom: 8px; 
+  margin-bottom: 16px; 
+  }
+
+  
+  .favorite-birthdays-list li {
+    padding: 8px 0; 
+  }
+  
   
   
